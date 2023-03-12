@@ -4,7 +4,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 require('flatpickr/dist/themes/material_orange.css');
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-refs = {
+const refs = {
   startBtnRef: document.querySelector('[data-start]'),
   timerDataDays: document.querySelector('[data-days]'),
   timerDataHours: document.querySelector('[data-hours]'),
